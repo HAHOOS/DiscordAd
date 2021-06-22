@@ -11,7 +11,6 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Reflection;
 using System.Threading;
-using Button = DiscordRPC.Button;
 using DiscordRPC.Logging;
 
 namespace Discord_Ad
@@ -272,10 +271,10 @@ namespace Discord_Ad
                     },
 
                      
-                      Buttons = new Button[]
+                      Buttons = new DiscordRPC.Button[]
                         {
-                            new Button() { Label = Properties.Settings.Default.Button1_Label, Url = button1URL },
-                            new Button() { Label = Properties.Settings.Default.Button2_Label, Url = button2URL }
+                            new DiscordRPC.Button() { Label = Properties.Settings.Default.Button1_Label, Url = button1URL },
+                            new DiscordRPC.Button() { Label = Properties.Settings.Default.Button2_Label, Url = button2URL }
                         }
 
 
