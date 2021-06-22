@@ -62,15 +62,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CustomControls\CustomProgressBar.cs">
-      <SubType>Component</SubType>
-    </Compile>
-    <Compile Include="CustomControls\TextBox.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="CustomControls\TextBox.Designer.cs">
-      <DependentUpon>TextBox.cs</DependentUpon>
-    </Compile>
     <Compile Include="CustomControls\ToggleButton.cs">
       <SubType>Component</SubType>
     </Compile>
@@ -100,9 +91,6 @@
     <Compile Include="Without_file.Designer.cs">
       <DependentUpon>Without_file.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="CustomControls\TextBox.resx">
-      <DependentUpon>TextBox.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
