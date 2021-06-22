@@ -159,7 +159,7 @@ namespace Discord_Ad
             this.btn_manual.Name = "btn_manual";
             this.btn_manual.Size = new System.Drawing.Size(366, 50);
             this.btn_manual.TabIndex = 10;
-            this.btn_manual.Text = "Manual";
+            this.btn_manual.Text = "Configure Ad";
             this.btn_manual.UseVisualStyleBackColor = false;
             this.btn_manual.Click += new System.EventHandler(this.btn_manual_Click);
             // 

@@ -363,7 +363,7 @@ namespace Discord_Ad
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.Name = "Without_file";
-            this.Text = "DiscordAd";
+            this.Text = "DiscordAd - Manual Configuration";
             this.Load += new System.EventHandler(this.Without_file_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
