@@ -44,8 +44,8 @@ namespace Discord_Ad
             this.btn_stop = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
             this.btn_settings = new System.Windows.Forms.Button();
-            this.toggleButton_manual = new Discord_Ad.ToggleButton.ToggleButton();
             this.label4 = new System.Windows.Forms.Label();
+            this.toggleButton_manual = new Discord_Ad.ToggleButton.ToggleButton();
             this.status.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -201,6 +201,15 @@ namespace Discord_Ad
             this.btn_settings.UseVisualStyleBackColor = false;
             this.btn_settings.Click += new System.EventHandler(this.btn_settings_Click);
             // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(599, 437);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(137, 13);
+            this.label4.TabIndex = 26;
+            this.label4.Text = "Loading with File YML soon";
+            // 
             // toggleButton_manual
             // 
             this.toggleButton_manual.AutoSize = true;
@@ -217,15 +226,6 @@ namespace Discord_Ad
             this.toggleButton_manual.Size = new System.Drawing.Size(45, 22);
             this.toggleButton_manual.TabIndex = 25;
             this.toggleButton_manual.UseVisualStyleBackColor = true;
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(599, 437);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(137, 13);
-            this.label4.TabIndex = 26;
-            this.label4.Text = "Loading with File YML soon";
             // 
             // Form1
             // 

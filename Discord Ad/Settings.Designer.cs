@@ -153,34 +153,37 @@ namespace Discord_Ad
             // password_checkbox_startAd
             // 
             this.password_checkbox_startAd.AutoSize = true;
+            this.password_checkbox_startAd.Enabled = false;
             this.password_checkbox_startAd.Font = new System.Drawing.Font("Montserrat", 10F);
             this.password_checkbox_startAd.Location = new System.Drawing.Point(15, 44);
             this.password_checkbox_startAd.Name = "password_checkbox_startAd";
-            this.password_checkbox_startAd.Size = new System.Drawing.Size(86, 24);
+            this.password_checkbox_startAd.Size = new System.Drawing.Size(195, 24);
             this.password_checkbox_startAd.TabIndex = 21;
-            this.password_checkbox_startAd.Text = "Start Ad";
+            this.password_checkbox_startAd.Text = "Start Ad(IN PROGRESS)";
             this.password_checkbox_startAd.UseVisualStyleBackColor = true;
             // 
             // password_checkbox_save
             // 
             this.password_checkbox_save.AutoSize = true;
+            this.password_checkbox_save.Enabled = false;
             this.password_checkbox_save.Font = new System.Drawing.Font("Montserrat", 10F);
             this.password_checkbox_save.Location = new System.Drawing.Point(15, 89);
             this.password_checkbox_save.Name = "password_checkbox_save";
-            this.password_checkbox_save.Size = new System.Drawing.Size(61, 24);
+            this.password_checkbox_save.Size = new System.Drawing.Size(170, 24);
             this.password_checkbox_save.TabIndex = 23;
-            this.password_checkbox_save.Text = "Save";
+            this.password_checkbox_save.Text = "Save(IN PROGRESS)";
             this.password_checkbox_save.UseVisualStyleBackColor = true;
             // 
             // password_checkbox_stop
             // 
             this.password_checkbox_stop.AutoSize = true;
+            this.password_checkbox_stop.Enabled = false;
             this.password_checkbox_stop.Font = new System.Drawing.Font("Montserrat", 10F);
             this.password_checkbox_stop.Location = new System.Drawing.Point(15, 67);
             this.password_checkbox_stop.Name = "password_checkbox_stop";
-            this.password_checkbox_stop.Size = new System.Drawing.Size(61, 24);
+            this.password_checkbox_stop.Size = new System.Drawing.Size(170, 24);
             this.password_checkbox_stop.TabIndex = 22;
-            this.password_checkbox_stop.Text = "Stop";
+            this.password_checkbox_stop.Text = "Stop(IN PROGRESS)";
             this.password_checkbox_stop.UseVisualStyleBackColor = true;
             // 
             // password_checkbox_manual
@@ -217,7 +220,7 @@ namespace Discord_Ad
             this.panel1.Controls.Add(this.password_checkbox_save);
             this.panel1.Location = new System.Drawing.Point(16, 112);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(157, 199);
+            this.panel1.Size = new System.Drawing.Size(213, 199);
             this.panel1.TabIndex = 26;
             // 
             // label4
