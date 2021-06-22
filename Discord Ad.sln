@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31229.75
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DiscordAd", "Discord Ad\DiscordAd.csproj", "{DBA4ED6B-D9B7-4113-A6F1-74B202173817}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DiscordAdAPI", "DiscordAdAPI\DiscordAdAPI.csproj", "{A1175EE5-B7D5-42F2-A06B-8E51600CC697}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DBA4ED6B-D9B7-4113-A6F1-74B202173817}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBA4ED6B-D9B7-4113-A6F1-74B202173817}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBA4ED6B-D9B7-4113-A6F1-74B202173817}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBA4ED6B-D9B7-4113-A6F1-74B202173817}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A1175EE5-B7D5-42F2-A06B-8E51600CC697}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1175EE5-B7D5-42F2-A06B-8E51600CC697}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1175EE5-B7D5-42F2-A06B-8E51600CC697}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1175EE5-B7D5-42F2-A06B-8E51600CC697}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CE003563-961E-4956-8EDE-7F3705D65884}
+	EndGlobalSection
+EndGlobal
