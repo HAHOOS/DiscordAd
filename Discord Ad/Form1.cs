@@ -9,8 +9,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using YamlDotNet.RepresentationModel;
-using YamlDotNet.Serialization;
+
 using System.Reflection;
 using System.Threading;
 using Button = DiscordRPC.Button;
