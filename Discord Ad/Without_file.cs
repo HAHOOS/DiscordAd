@@ -29,18 +29,7 @@ namespace Discord_Ad
             txt_button1_URL.Text = Properties.Settings.Default.Button1_URL;
             txt_button2_label.Text = Properties.Settings.Default.Button2_Label;
             txt_button2_URL.Text = Properties.Settings.Default.Button2_URL;
-            //Addons Settings
-            string path = Path.Combine(System.IO.Path.GetDirectoryName(Application.ExecutablePath), @"Addons");
-            for (int i = 0; i < Directory.GetFiles(path).Length; i++)
-            {
-                Panel addoncontrol = new Panel();
-                addoncontrol.BackColor = System.Drawing.Color.DodgerBlue;
-                addoncontrol.Location = new System.Drawing.Point(3, 3);
-                addoncontrol.Name = "panel1";
-                addoncontrol.Size = new System.Drawing.Size(749, 198);
-                addoncontrol.TabIndex = 0;
-                
-            }
+            
         }
 
         private void button1_Click(object sender, EventArgs e)
